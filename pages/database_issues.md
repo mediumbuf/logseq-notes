@@ -125,10 +125,8 @@ This comes from brief webhooks and is hammered every time we send out a marketin
 SELECT $1 AS one
 FROM "leads"
 WHERE LOWER("leads"."email") = LOWER($2)
-        AND "leads"."id" != $3 LIMIT $4
+        AND "leads"."id" != $3 LIMIT $4[]
 ```
-
-
 #### CmsSection.find has an I/O problem
 
 It's got a lot of bloat inside of it due to the multiple text fields.

@@ -19,6 +19,8 @@ I reviewed all the material over the last few weeks and info from Scout, deploy 
 - [ ] memory leaks on web
 
 
+## potential solutions
+
 ### db upgrade
 A potential low effort solution that might help is to just up the RAM in the db. We are at 4gb right now and the next tier is 8gb
 

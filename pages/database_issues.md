@@ -3,10 +3,7 @@ title: database issues
 ---
 
 ## Research
-
 I reviewed all the material over the last few weeks and info from Scout, deploy times, code changes, and the logs. Listed below are the recommendations I think we should do for this round of site improvements.
-
-
 ## database issues
 
 - [ ] db upgrade
